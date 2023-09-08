@@ -32,7 +32,7 @@ const handler = async (m, {conn, args, usedPrefix, __dirname}) => {
 [`𝙰𝚅𝙴𝙽𝚃𝚄𝚁𝙰𝚁 🏕️`, `${usedPrefix}adventure`]], m)*/
 handler.help = ['heal'];
 handler.tags = ['rpg'];
-handler.command = /^(heal|curar)$/i;
+handler.command = /^(vida|heal|salud|curar)$/i;
 export default handler;
 function isNumber(number) {
   if (!number) return number;
