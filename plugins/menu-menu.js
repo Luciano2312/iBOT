@@ -28,9 +28,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃ ╰━━━━━━━━━━━━━━━━╯ 
 ┣━━━▢ ʙᴜᴇɴᴀꜱ, ${taguser}⁩• 
 ┃╭━━━━━━━━━━━━━━━━╾• 
-┃┃  ❍ 1.19.21 ❍ 
+┃┃  ❍ 1.20.15 ❍ 
 ┃┣━━━━━━━━━━━━━━━━╾• 
-┃┃ ⋄ ᴄʀᴇᴀᴅᴏʀ: Anonimo
+┃┃ ⋄ ᴄʀᴇᴀᴅᴏʀ: Anonymous
 ┃┃ ⋄ ꜰᴇᴄʜᴀ » ${moment.tz('America/Buenos_Aires').format('DD/MM/YY')}
 ┃┃ ⋄ ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ » ${uptime}
 ┃┃ ⋄ ʟᴇɴɢᴜᴀᴊᴇ » ꜱᴘᴀɴɪꜱʜ 
