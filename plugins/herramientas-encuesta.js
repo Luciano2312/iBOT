@@ -11,7 +11,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const caption = `*ᴇᴄᴜᴇsᴛᴀ ʀᴇᴀʟɪᴢᴀᴅᴀ ᴘᴏʀ:*\n${name}\n*ᴘʀᴇɢᴜɴᴛᴀ:*\n${text.split('|')[0]}`;
   return conn.sendPoll(m.chat, caption, a, m);
 };
-handler.help = ['encuesta question|option|option'];
+handler.help = ['encuesta|question|option|option'];
 handler.tags = ['group'];
 handler.command = ['poll', 'encuesta'];
 export default handler;
