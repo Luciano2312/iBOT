@@ -1175,13 +1175,13 @@ export async function handler(chatUpdate) {
             if (user.bannedMessageCount < 3) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
-╔═════════════════════════╗
+╔═══════════════════╗
  ❰ ⚠️ ❱ *¡USUARIO BANEADO!* ❰ ⚠️ ❱
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
 —◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
-—◉ *Contacto para apelaciones:* wa.me/5219992095479
-╚═════════════════════════╝
+—◉ *Contacto para apelaciones:* wa.me/5493886455711
+╚═══════════════════╝
                `.trim();
               m.reply(messageText);
               user.bannedMessageCount++;
