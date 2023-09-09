@@ -91,6 +91,20 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛  
 
 ┏━━━━━━━━━━━━━━━━┓
+┃ *< ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠 />*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 🔞 _${usedPrefix}labiblia_
+┗━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━┓
+┃ *< ℂℍ𝔸𝕋 𝔸ℕ𝕆ℕ𝕀𝕄𝕆 />*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 📳 _${usedPrefix}start_
+┣ ඬ⃟ 📳 _${usedPrefix}next_
+┣ ඬ⃟ 📳 _${usedPrefix}leave_
+┗━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ ඬ⃟ 🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
@@ -126,43 +140,6 @@ ${readMore}
 ┣ ඬ⃟ 🎖️ _${usedPrefix}pista_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}akinator_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}wordfind_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *welcome*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *welcome*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *modohorny*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *modohorny*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink2*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink2*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *detect*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *detect*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *audios*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *audios*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *autosticker*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *autosticker*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiviewonce*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiviewonce*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitoxic*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitoxic*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitraba*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitraba*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiarabes*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiarabes*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *modoadmin*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *modoadmin*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antidelete*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antidelete*_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-┣ *< ℝ𝔼ℙ𝕆ℝ𝕋𝔸ℝ 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🔰 _${usedPrefix}reporte *<texto>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -223,42 +200,9 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝔾ℝ𝕌ℙ𝕆𝕊 />* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💎 _${usedPrefix}add *<numero>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kick *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kick2 *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}listanum *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kicknum *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-┣ ඬ⃟ 💎 _${usedPrefix}grouptime *<opcion> <tiempo>*_
-┣ ඬ⃟ 💎 _${usedPrefix}promote *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}infogroup_
-┣ ඬ⃟ 💎 _${usedPrefix}resetlink_
-┣ ඬ⃟ 💎 _${usedPrefix}link_
-┣ ඬ⃟ 💎 _${usedPrefix}setname *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setdesc *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}invocar *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setwelcome *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setbye *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<audio>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<video>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<imagen>*_
-┣ ඬ⃟ 💎 _${usedPrefix}warn *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}unwarn *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}listwarn_
-┣ ඬ⃟ 💎 _${usedPrefix}fantasmas_
-┣ ඬ⃟ 💎 _${usedPrefix}destraba_
-┣ ඬ⃟ 💎 _${usedPrefix}setpp *<imagen>*_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
 ┃ *< ℂ𝕆ℕ𝕍𝔼ℝ𝕋𝕀𝔻𝕆ℝ𝔼𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 🧧 _${usedPrefix}hd *<responde a imagen>*_
 ┣ ඬ⃟ 🧧 _${usedPrefix}toanime *<imagen>*_
 ┣ ඬ⃟ 🧧 _${usedPrefix}togifaud *<video>*_
 ┣ ඬ⃟ 🧧 _${usedPrefix}toimg *<sticker>*_
@@ -334,12 +278,6 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🔞 _${usedPrefix}labiblia_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝔻𝔼 𝔸𝕌𝔻𝕀𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┃*- 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉*
@@ -355,14 +293,6 @@ ${readMore}
 ┣ ඬ⃟ 🎤 _${usedPrefix}slow_
 ┣ ඬ⃟ 🎤 _${usedPrefix}smooth_
 ┣ ඬ⃟ 🎤 _${usedPrefix}tupai_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-┃ *< ℂℍ𝔸𝕋 𝔸ℕ𝕆ℕ𝕀𝕄𝕆 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 📳 _${usedPrefix}start_
-┣ ඬ⃟ 📳 _${usedPrefix}next_
-┣ ඬ⃟ 📳 _${usedPrefix}leave_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -404,6 +334,7 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 💵 _${usedPrefix}menueco_
 ┣ ඬ⃟ 💵 _${usedPrefix}adventure_
 ┣ ඬ⃟ 💵 _${usedPrefix}cazar_
 ┣ ඬ⃟ 💵 _${usedPrefix}cofre_
@@ -457,6 +388,71 @@ ${readMore}
 ┣ ඬ⃟ 👽 _${usedPrefix}stickermarker *<efecto> <imagen>*_
 ┣ ඬ⃟ 👽 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
 ┣ ඬ⃟ 👽 _${usedPrefix}cartoon *<responder a imagen>*_
+┗━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━┓
+┃ *< 𝔾ℝ𝕌ℙ𝕆𝕊 />* 
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 💎 _${usedPrefix}add *<numero>*_
+┣ ඬ⃟ 💎 _${usedPrefix}kick *<@tag>*_
+┣ ඬ⃟ 💎 _${usedPrefix}kick2 *<@tag>*_
+┣ ඬ⃟ 💎 _${usedPrefix}listanum *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}kicknum *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
+┣ ඬ⃟ 💎 _${usedPrefix}grouptime *<opcion> <tiempo>*_
+┣ ඬ⃟ 💎 _${usedPrefix}promote *<@tag>*_
+┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
+┣ ඬ⃟ 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
+┣ ඬ⃟ 💎 _${usedPrefix}infogroup_
+┣ ඬ⃟ 💎 _${usedPrefix}resetlink_
+┣ ඬ⃟ 💎 _${usedPrefix}link_
+┣ ඬ⃟ 💎 _${usedPrefix}setname *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}setdesc *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}invocar *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}setwelcome *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}setbye *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<texto>*_
+┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<audio>*_
+┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<video>*_
+┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<imagen>*_
+┣ ඬ⃟ 💎 _${usedPrefix}warn *<@tag>*_
+┣ ඬ⃟ 💎 _${usedPrefix}unwarn *<@tag>*_
+┣ ඬ⃟ 💎 _${usedPrefix}listwarn_
+┣ ඬ⃟ 💎 _${usedPrefix}fantasmas_
+┣ ඬ⃟ 💎 _${usedPrefix}destraba_
+┣ ඬ⃟ 💎 _${usedPrefix}setpp *<imagen>*_
+┗━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━┓
+┃ *< 𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ />*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *welcome*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *welcome*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *modohorny*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *modohorny*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink2*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink2*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *detect*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *detect*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *audios*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *audios*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *autosticker*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *autosticker*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiviewonce*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiviewonce*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitoxic*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitoxic*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitraba*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitraba*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiarabes*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiarabes*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *modoadmin*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *modoadmin*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antidelete*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antidelete*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
