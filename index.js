@@ -17,7 +17,7 @@ say('iBot - Bot\nWhatsApp Bot MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por Bruno Sobrino`, {
+say(`Bot creado por @lucianos.__`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
