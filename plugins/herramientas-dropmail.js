@@ -69,7 +69,7 @@ const handler = async (m, {
 };
 handler.help = ['dropmail'];
 handler.tags = ['misc'];
-handler.command = /^(dropmail)$/i;
+handler.command = /^(correo|correofalso|fakemail|dropmail)$/i;
 export default handler;
 
 function msToTime(duration) {
