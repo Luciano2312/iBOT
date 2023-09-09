@@ -479,7 +479,7 @@ setInterval(async () => {
   const uptime = clockString(_uptime);
   const bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
-}, 1000);
+}, 20000);
 function clockString(ms) {
   const d = isNaN(ms) ? '--' : Math.floor(ms / 86400000);
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
