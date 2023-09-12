@@ -7,6 +7,7 @@ import {unwatchFile, watchFile} from 'fs';
 import fs from 'fs';
 import chalk from 'chalk';
 import mddd5 from 'md5';
+import ws from 'ws';
 
 /**
  * @type {import('@whiskeysockets/baileys')}
@@ -24,6 +25,7 @@ const delay = (ms) => isNumber(ms) && new Promise((resolve) => setTimeout(functi
  */
 export async function handler(chatUpdate) {
   this.msgqueque = this.msgqueque || [];
+  this.uptime = this.uptime || Date.now();
   if (!chatUpdate) {
     return;
   }
@@ -1024,7 +1026,6 @@ export async function handler(chatUpdate) {
     if (typeof m.text !== 'string') {
       m.text = '';
     }
-    if (conn.uptime == undefined) conn.uptime = Date.now()
     const isROwner = [conn.decodeJid(global.conn.user.id), ...global.owner.map(([number]) => number)].map((v) => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender);
     const isOwner = isROwner || m.fromMe;
     const isMods = isOwner || global.mods.map((v) => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender);
@@ -1175,13 +1176,13 @@ export async function handler(chatUpdate) {
             if (user.bannedMessageCount < 3) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
-╔═══════════════════╗
+╔═════════════════════════╗
  ❰ ⚠️ ❱ *¡USUARIO BANEADO!* ❰ ⚠️ ❱
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
 —◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
 —◉ *Contacto para apelaciones:* wa.me/5493886455711
-╚═══════════════════╝
+╚═════════════════════════╝
                `.trim();
               m.reply(messageText);
               user.bannedMessageCount++;
@@ -1516,10 +1517,10 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
         const { fromMe, id, participant } = message
         if (fromMe) return 
         let msg = this.serializeM(this.loadMessage(id))
-	let chat = global.db.data.chats[msg.chat] || {}
-	if (!chat.antidelete) return 
+	let chat = global.db.data.chats[msg?.chat] || {}
+	if (!chat?.antidelete) return 
         if (!msg) return 
-	//if (!msg.isGroup) return console.log('sexoooo3')    
+	if (!msg?.isGroup) return 
 	const antideleteMessage = `
 ┏━━━━━━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━━━━━
 *■ Usuario:* @${participant.split`@`[0]}
@@ -1560,4 +1561,12 @@ watchFile(file, async () => {
   unwatchFile(file);
   console.log(chalk.redBright('Update \'handler.js\''));
   if (global.reloadHandler) console.log(await global.reloadHandler());
+  
+  if (global.conns && global.conns.length > 0 ) {
+    const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
+    for (const userr of users) {
+      userr.subreloadHandler(false)
+    }
+  }
+  
 });
